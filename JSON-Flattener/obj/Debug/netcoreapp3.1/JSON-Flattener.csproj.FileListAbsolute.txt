@@ -1,0 +1,14 @@
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.deps.json
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.runtimeconfig.json
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.runtimeconfig.dev.json
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.dll
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.pdb
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.csprojAssemblyReference.cache
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.AssemblyInfoInputs.cache
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.AssemblyInfo.cs
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.csproj.CoreCompileInputs.cache
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.dll
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.pdb
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.genruntimeconfig.cache
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/michalderej/RiderProjects/JSON-Flattener/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.csproj.CopyComplete
