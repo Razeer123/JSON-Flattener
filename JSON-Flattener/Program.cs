@@ -1,10 +1,9 @@
 ﻿using System;
 using System.IO;
-using Newtonsoft.Json.Linq;
 
 namespace JSON_Flattener
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -46,7 +45,7 @@ namespace JSON_Flattener
             catch (Exception e)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Error.WriteLine("Exception \"{0}\" has been thrown when opening a file. Incorrect input!", e.GetType().Name);
+                Console.Error.WriteLine($"Exception \"{e.GetType().Name}\" has been thrown when opening a file. Incorrect input!");
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Error.WriteLine("Stack trace:");
                 Console.Error.WriteLine(Environment.StackTrace);

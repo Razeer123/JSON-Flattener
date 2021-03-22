@@ -36,8 +36,7 @@ namespace JSON_Flattener
             catch (Exception e)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Error.WriteLine("Exception \"{0}\" has been thrown when opening a file. Incorrect input!",
-                    e.GetType().Name);
+                Console.Error.WriteLine($"Exception \"{e.GetType().Name}\" has been thrown when opening a file. Incorrect input!");
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Error.WriteLine("Stack trace:");
                 Console.Error.WriteLine(Environment.StackTrace);
@@ -68,9 +67,7 @@ namespace JSON_Flattener
             {
                 foreach (var jValue in tokens.Children<JProperty>())
                 {
-                    
                     var temp = string.IsNullOrEmpty(flattened) ? "" : ".";
-
                     JTokenToDictionary(jValue.Value,  flattened + temp + jValue.Name);
                 }
             }

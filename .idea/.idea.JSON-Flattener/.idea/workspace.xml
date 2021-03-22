@@ -4,8 +4,27 @@
     <projectFile>JSON-Flattener/JSON-Flattener.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d0026ec-69e4-4961-b8c6-52b57510a98f" name="Default Changelist" comment="Most of the main function and some parts of Flattener done.">
+    <list default="true" id="2d0026ec-69e4-4961-b8c6-52b57510a98f" name="Default Changelist" comment="Working version of JSON Flattener.">
+      <change afterPath="$PROJECT_DIR$/JsonTest/JsonTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/UnitTest1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/check1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/Debug/netcoreapp3.1/JsonTest.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/Debug/netcoreapp3.1/JsonTest.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/Debug/netcoreapp3.1/JsonTest.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/Debug/netcoreapp3.1/JsonTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/JsonTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/JsonTest.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/JsonTest.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonTest/test1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JSON-Flattener/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JSON-Flattener/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JSON-Flattener/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JSON-Flattener/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JSON-Flattener/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JSON-Flattener/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-Flattener.sln" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSON-Flattener/JsonHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/JsonHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSON-Flattener/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.dll" afterDir="false" />
@@ -26,8 +45,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/JSON-Flattener/Program.cs" />
       <option value="$PROJECT_DIR$/JSON-Flattener/JsonHandler.cs" />
+      <option value="$PROJECT_DIR$/JSON-Flattener/Program.cs" />
+      <option value="$PROJECT_DIR$/JsonTest/UnitTest1.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ptD3jixySYuXDY2SL9UcaFcAlH" />
@@ -44,10 +64,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.JSON-Flattener">
     <configuration name="JSON-Flattener" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.dll" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/sample3.json" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Downloads/test4.json" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -63,6 +83,9 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Project.JSON-Flattener" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +101,11 @@
       <workItem from="1615996390659" duration="6160000" />
       <workItem from="1616164525123" duration="1448000" />
       <workItem from="1616436152034" duration="859000" />
-      <workItem from="1616437515277" duration="5832000" />
+      <workItem from="1616437515277" duration="6041000" />
+      <workItem from="1616444896689" duration="3996000" />
+      <workItem from="1616450052484" duration="1215000" />
+      <workItem from="1616451477535" duration="89000" />
+      <workItem from="1616451797280" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="Most of the main function and some parts of Flattener done.">
       <created>1616000521314</created>
@@ -87,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616000521314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Working version of JSON Flattener.">
+      <created>1616443487242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616443487242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,9 +129,22 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Most of the main function and some parts of Flattener done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Most of the main function and some parts of Flattener done." />
+    <MESSAGE value="Working version of JSON Flattener." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working version of JSON Flattener." />
   </component>
 </project>
