@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Newtonsoft.Json.Linq;
 
 namespace JSON_Flattener
 {
@@ -14,9 +15,8 @@ namespace JSON_Flattener
             
             var inputJson = ReadFile(args[0]);
             var handler = new JsonHandler(inputJson);
-            Console.WriteLine(inputJson);
             
-
+            Console.WriteLine(handler.DeserializeJson());
         }
         
         /// <summary>

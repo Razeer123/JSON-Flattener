@@ -4,7 +4,15 @@
     <projectFile>JSON-Flattener/JSON-Flattener.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d0026ec-69e4-4961-b8c6-52b57510a98f" name="Default Changelist" comment="" />
+    <list default="true" id="2d0026ec-69e4-4961-b8c6-52b57510a98f" name="Default Changelist" comment="Most of the main function and some parts of Flattener done.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JSON-Flattener/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JSON-Flattener/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-Flattener/JsonHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/JsonHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-Flattener/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-Flattener/obj/Debug/netcoreapp3.1/JSON-Flattener.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/JSON-Flattener/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -36,7 +47,7 @@
   <component name="RunManager">
     <configuration name="JSON-Flattener" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1/JSON-Flattener.dll" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/testas.json" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/sample3.json" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JSON-Flattener/bin/Debug/netcoreapp3.1" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -64,8 +75,19 @@
       <workItem from="1615993312056" duration="603000" />
       <workItem from="1615993972314" duration="2119000" />
       <workItem from="1615996309641" duration="50000" />
-      <workItem from="1615996390659" duration="3802000" />
+      <workItem from="1615996390659" duration="6160000" />
+      <workItem from="1616164525123" duration="1448000" />
+      <workItem from="1616436152034" duration="859000" />
+      <workItem from="1616437515277" duration="5832000" />
     </task>
+    <task id="LOCAL-00001" summary="Most of the main function and some parts of Flattener done.">
+      <created>1616000521314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616000521314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +97,7 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Most of the main function and some parts of Flattener done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Most of the main function and some parts of Flattener done." />
   </component>
 </project>
