@@ -31,7 +31,7 @@ To use the app it's recommended to download it from this repository. After that,
 ```
 dotnet build
 ```
-After project building process is done, run the program using:
+After project building process is done (it can take a few seconds), run the program using:
 ```
 dotnet run <JSON location>
 ```
