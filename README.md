@@ -27,11 +27,11 @@ JSON Flattener is a console app which I wrote in C#. It was created as an assign
 
 # Usage 👨‍💻
 
-To use the app it's recommended to download it from this repository. After that, open the terminal in the project's location and type:
+To use the app it's recommended to download it from this repository. After that, open the terminal in the project's location (JSON-Flattener, where there are two .cs files) and type:
 ```
 dotnet build
 ```
-After project building process is done (it can take a few seconds), run the program using:
+After project building process is done (it can take a second), run the program using:
 ```
 dotnet run <JSON location>
 ```
